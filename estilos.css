@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #534B62;
+}
+
+.header_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    border-bottom: .1rem #000 solid;
+    background-color: #1B1725;
+}
+
+    .div_container h2{
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .div_container img{
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+    }
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+    .whoPlayDiv p{
+        font-size: 4rem;
+        color: #fff;
+    }
+
+        .whoPlay{
+            font-size: 4rem;
+        }
+
+        .whoPlayTwo{
+            font-size: 4rem;
+        }
+
+        .whatPlay {
+            font-size: 4rem;
+        }
+
+    .board{
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+
+    .winners{
+        width: 50%;
+        height: 20rem;
+        padding: 1rem;
+        font-size: 4rem;
+        text-align: center;
+        margin: .2rem;
+        color: #fff;
+    }
+
+    .playAgain{
+        width: 15rem;
+        height: 10rem;
+        border: none;
+        padding: 1rem;
+        background: #A499B3;
+        border-radius: 1rem;
+        cursor: pointer;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+
+    .div_center{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .div_center button{
+            height: 5rem;
+            margin: 1rem;
+            font-size: 3rem;
+            cursor: pointer;
+            border: none;
+            background: #A499B3;
+            color: #fff;
+        }
+
+        .column{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: #A499B3;
+            width: 100%;
+            height: 100%;
+            border: .3rem solid rgb(0, 0, 0);
+        }
+
+        
+        .f1, .f2, .f3, .f4, .f5, .f6{
+            background-color: white;
+            margin: 1rem;
+            width: 50%;
+            height: 10%;
+            border: .1rem solid rgb(0, 0, 0);
+            border-radius: 50%;
+        }
+
+        .userColor{
+            background-color: rgb(0, 204, 255);
+        }
+
+        .iaColor{
+            background-color: rgb(255, 0, 0);
+        }
