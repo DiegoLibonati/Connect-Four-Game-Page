@@ -38,3 +38,7 @@ I made a web page where you can play connect four against an AI. Once the user p
 `https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Connect%20four%20page`
 
 ## Video
+
+
+https://user-images.githubusercontent.com/99032604/199373261-e7714720-dd5d-4ef5-aa79-036efab24671.mp4
+
