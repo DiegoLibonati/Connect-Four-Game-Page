@@ -35,7 +35,7 @@ I made a web page where you can play connect four against an AI. Once the user p
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Connect%20four%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Connect%20Four%20Page`
 
 ## Video
 
